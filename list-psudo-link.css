@@ -1,0 +1,109 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+ul.language {
+  font-family: "Bruno Ace SC", sans-serif;
+  list-style-type: circle;
+  list-style-type: square;
+  list-style-type: none;
+  list-style-type: lower-latin;
+  list-style-type: georgian;
+  list-style-position: inside;
+  padding: 20px;
+  list-style-image: url("igloo-solid.svg");
+}
+h2 i {
+  font-size: 40px;
+}
+.fa-solid {
+  color: red;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+ul.pseudo li:first-child {
+  color: blue;
+  font-weight: 700;
+}
+
+ul.pseudo li:last-child {
+  color: green;
+  font-weight: 700;
+}
+ul.pseudo li:nth-child(5) {
+  color: purple;
+  font-weight: 700;
+}
+
+ul.psudo li:nth-child(odd) {
+  color: hotpink;
+  background-color: lightgray;
+}
+
+ul.pseudo li:nth-child(even) {
+  color: lightsalmon;
+}
+
+ul.pseudo li:hover {
+  background-color: black;
+  cursor: pointer;
+}
+ul.pseudo li:active {
+  background-color: green;
+}
+
+input:focus {
+  background-color: tomato;
+  color: white;
+  border: 4px dotted white;
+  outline: none;
+}
+
+nav.links a:link {
+  color: brown;
+}
+
+nav.links a:visited {
+  color: rgb(255, 0, 38);
+}
+
+nav.links a:active {
+  color: magenta;
+}
+
+nav.links a:hover {
+  color: chartreuse;
+  text-decoration: none;
+}
+
+.p-elements::first-line {
+  color: red;
+}
+.p-elements::first-letter {
+  font-size: 30px;
+}
+
+ul.before-after li::before {
+  content: "😊";
+}
+
+ul.before-after li:last-child(3)::before {
+  content: "🚘";
+}
+
+ul.before-after li:last-child::after {
+  content: "🏎️";
+}
+
+ul.before-after li:nth-child(2)::after {
+  content: " Nice Car";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  content: "\f53a";
+}
+
+ul.before-after li:nth-child(3):hover::after {
+  content: "🚘";
+}
